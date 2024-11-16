@@ -1,3 +1,3 @@
 FROM httpd
 
-COPY index.html /usr/local/apache2/htdocs
+COPY /var/lib/jenkins/workspace/Test/index.html /usr/local/apache2/htdocs
